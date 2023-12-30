@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.WIP.OpMode.Auto.Meet2;
+package org.firstinspires.ftc.teamcode.OpMode.Auto.Meet2;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;

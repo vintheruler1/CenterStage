@@ -4,8 +4,8 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.hardware.bosch.BNO055IMU;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
-import org.firstinspires.ftc.teamcode.WIP.common.drive.AStarAlgorithm;
-import org.firstinspires.ftc.teamcode.WIP.common.drive.Pair;
+import org.firstinspires.ftc.teamcode.common.drive.AStarAlgorithm;
+import org.firstinspires.ftc.teamcode.common.drive.Pair;
 
 
 import java.util.ArrayList;

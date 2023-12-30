@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.WIP.common.util.packager;
+package org.firstinspires.ftc.teamcode.common.util.packager;
 
 public abstract class VSubsystem {
 

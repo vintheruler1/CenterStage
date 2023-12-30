@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.WIP.common.hardware;
+package org.firstinspires.ftc.teamcode.common.hardware;
 
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.telemetry.MultipleTelemetry;
@@ -11,10 +11,10 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import java.util.ArrayList;
 
 import org.firstinspires.ftc.robotcore.external.Telemetry;
-import org.firstinspires.ftc.teamcode.WIP.common.util.Globals;
-import org.firstinspires.ftc.teamcode.WIP.common.util.packager.VSubsystem;
+import org.firstinspires.ftc.teamcode.common.util.Globals;
+import org.firstinspires.ftc.teamcode.common.util.packager.VSubsystem;
 
-public class Robot {
+public class RobotH {
 
     // Drivetrain
     public DcMotorEx frontLeft;
@@ -38,7 +38,7 @@ public class Robot {
     private ElapsedTime voltageTimer = new ElapsedTime();
     private double voltage = 12.0;
 
-    public static Robot instance = null;
+    public static RobotH instance = null;
     public boolean active;
 
     private BNO055IMU imu;
@@ -49,9 +49,9 @@ public class Robot {
 
     // add subsystems for bucket, conveyor, drivetrain, drone, lift, etc
 
-    public static Robot getInstance() {
+    public static RobotH getInstance() {
         if (instance == null) {
-            instance = new Robot();
+            instance = new RobotH();
         }
         instance.active = true;
         return instance;

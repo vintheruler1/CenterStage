@@ -1,10 +1,10 @@
-package org.firstinspires.ftc.teamcode.WIP.OpMode.Auto;
+package org.firstinspires.ftc.teamcode.OpMode.Auto;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 import org.firstinspires.ftc.robotcore.external.hardware.camera.WebcamName;
-import org.firstinspires.ftc.teamcode.WIP.common.vision.CSVisionProcessor;
+import org.firstinspires.ftc.teamcode.common.vision.CSVisionProcessor;
 import org.firstinspires.ftc.vision.VisionPortal;
 
 @Autonomous

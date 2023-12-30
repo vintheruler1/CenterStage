@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.WIP.OpMode.Auto;
+package org.firstinspires.ftc.teamcode.OpMode.Auto;
 
 import com.acmerobotics.roadrunner.geometry.Pose2d;
 import com.acmerobotics.roadrunner.geometry.Vector2d;
@@ -12,7 +12,7 @@ import org.firstinspires.ftc.teamcode.Legacy.Hardware.Conveyor;
 import org.firstinspires.ftc.teamcode.Legacy.Hardware.Robot;
 import org.firstinspires.ftc.teamcode.Legacy.Hardware.Lift;
 import org.firstinspires.ftc.teamcode.Legacy.Hardware.Bucket;
-import org.firstinspires.ftc.teamcode.WIP.common.vision.CSVisionProcessor;
+import org.firstinspires.ftc.teamcode.common.vision.CSVisionProcessor;
 import org.firstinspires.ftc.vision.VisionPortal;
 
 @Autonomous(name = "RedAutoRight", group = "Autonomous")
